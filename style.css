@@ -4,9 +4,10 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Red Hat Display", sans-serif;
-
+    color: #F5F7F8;
+    width: 100%;
     font-style: normal;
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background: linear-gradient(135deg, #1F3B4D , #010608 ); /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -16,9 +17,16 @@ body {
     padding: 0; /* Remove o padding padrão */
 }
 
+header p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem; /* Tamanho da fonte */
+    margin-top: 30%;
+    margin-bottom: 0; 
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     font-size: 5rem;
@@ -42,7 +50,6 @@ h1 {
     }
 }
 
-
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -53,12 +60,13 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 32rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
+    border-radius: 1rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
     color: #45474B; /* Cor do texto */
+    text-align: center;
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -97,6 +105,7 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 100%;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -121,6 +130,26 @@ section button:hover {
     color: #45474B; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
+
+/* Estiliza as tags */
+.tags-meta {
+    font-size: 0.9em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Estilo individual para cada tag */
+.tags-meta span {
+    display: inline-block;
+    background-color: #E3F2F9; /* Cor de fundo similar ao da imagem */
+    color: #2A3B4D; /* Cor do texto */
+    padding: 10px 15px; /* Aumenta o espaçamento interno */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin-right: 5px; /* Espaçamento entre as tags */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 0.9rem; /* Tamanho da fonte */
+}
+
 
 /* Estiliza o rodapé da página */
 footer {
@@ -173,8 +202,9 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
-        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+        margin: auto;
+        width: 80%;
+        height: 50vh;
     }
 
     .item-resultado h2 {
