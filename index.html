@@ -15,13 +15,21 @@
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite uma área ou formato de trabalho desejado" id="campo-pesquisa">
-            <button onclick="pesquisar()">Pesquisar</button>
+            <div>
+                <input type="text" id="campo-pesquisa" placeholder="Digite sua pesquisa...">
+                <button onclick="pesquisar()">Pesquisar</button>
+            </div>
+        
+            <div id="filtros">
+                <button class="filtro" data-tag="freelancing">Freelancing</button>
+                <button class="filtro" data-tag="Brasil">Brasil</button>
+                <button class="filtro" data-tag="projetos">Projetos</button>
+                <button class="filtro" data-tag="trabalho remoto">Trabalho Remoto</button>
+                <button class="filtro" data-tag="renda extra">Renda Extra</button>
+            </div>
         </section>
-        <section class="resultados-pesquisa"
-            id="resultados-pesquisa">
-            
-        </section>
+        
+        <section id="resultados-pesquisa" class="resultados-pesquisa"></section>        
     </main>
     <!-- <footer>
         <p>2024- Income+. Todos os direitos reservados</p>
