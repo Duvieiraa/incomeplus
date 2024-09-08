@@ -5,21 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>ProjetinhoFELLAS</title>
+    <link rel="icon" href="./imagens/moeda.png">
+    <title>INCOME+</title>
 </head>
 
 <body>
     <header>
-        <h1>INCOME+</h1>
+        <!-- Adiciona o ícone acima da tag h1 -->
+         <div class="logo">
+             <img src="./imagens/moeda.png" alt="Ícone de Moeda" style="display: block; margin: auto; width: 100px; height: 100px;">
+             <h1>INCOME+</h1>
+         </div>
         <p>Descubra novas maneiras de ganhar uma renda extra</p>
     </header>
     <main>
         <section>
-            <div>
-                <input type="text" id="campo-pesquisa" placeholder="Digite sua pesquisa...">
-                <button onclick="pesquisar()">Pesquisar</button>
-            </div>
-        
+            <!-- <div>
+            </div> -->
+            <input type="text" id="campo-pesquisa" placeholder="Digite sua pesquisa...">
             <div id="filtros">
                 <button class="filtro" data-tag="freelancing">Freelancing</button>
                 <button class="filtro" data-tag="Brasil">Brasil</button>
@@ -27,6 +30,8 @@
                 <button class="filtro" data-tag="trabalho remoto">Trabalho Remoto</button>
                 <button class="filtro" data-tag="renda extra">Renda Extra</button>
             </div>
+            <button onclick="pesquisar()">Pesquisar</button>
+        
         </section>
         
         <section id="resultados-pesquisa" class="resultados-pesquisa"></section>        

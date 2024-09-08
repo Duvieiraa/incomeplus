@@ -1,20 +1,25 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-/* Estiliza o corpo da página */
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: "Red Hat Display", sans-serif;
     color: #F5F7F8;
     width: 100%;
     font-style: normal;
     background: linear-gradient(135deg, #1F3B4D , #010608 ); /* Cor de fundo da página */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    height: 100vh; /* Preenche a altura total da viewport */
-    margin: 0; /* Remove a margem padrão */
-    padding: 0; /* Remove o padding padrão */
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 60px; /* Remove a margem superior */
+
 }
 
 header p {
@@ -25,13 +30,13 @@ header p {
 
 /* Estiliza os títulos h1 */
 h1 {
-    margin-top: 30%;
     margin-bottom: 0; 
+    margin-top: 5px;
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
     font-size: 5rem;
     font-weight: bold;
-    background: linear-gradient(90deg, #fffdf2, #ffd700, #fffdf2);
+    background: linear-gradient(90deg, #fffdf2, #ffd241, #fffdf2);
     background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,7 +51,7 @@ h1 {
     }
     100% {
         background-position: 0%;
-        -webkit-text-fill-color: #ffd900; /* Cor dourada final após a animação */
+        -webkit-text-fill-color: #ffd241; /* Cor dourada final após a animação */
     }
 }
 
