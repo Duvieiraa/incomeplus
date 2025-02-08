@@ -39,20 +39,3 @@ Sinta-se à vontade para contribuir com este projeto! Se você encontrar algum b
 Este projeto é apenas um ponto de partida. É importante que você pesquise e verifique a autenticidade de cada oportunidade antes de se envolver em qualquer atividade.
 
 **Vamos juntos nessa jornada rumo à independência financeira!** 
-
-**Créditos:**
-
-* **Desenvolvimento:** [Seu nome]
-* **Design:** [Seu nome] (ou quem fez o design)
-
-**Observações:**
-
-* **Substitua:**
-  * `https://seu-repositorio.git` pelo link do seu repositório no GitHub.
-  * `[Seu nome]` pelo seu nome.
-* **Adicione:**
-  * Se quiser, adicione uma seção de agradecimentos ou informações sobre a licença do projeto.
-* **Divirta-se:**
-  * Crie um README que reflita sua personalidade e o estilo do seu projeto!
-
-**Lembre-se:** Um README bem escrito e divertido pode atrair mais pessoas para o seu projeto. 
